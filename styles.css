@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #A1EEBD; /* Blue-green background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.content {
+    background-color: #F6F7C4; /* Light yellow background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.bear {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative; /* Set position to relative */
+}
+
+#yesButton {
+    background-color: #7BD3EA; /* Blue color for the Yes button */
+}
+
+#noButton {
+    background-color: #F6D6D6; /* Light pink color for the No button */
+}
+
+#noButton:disabled {
+    cursor: not-allowed;
+}
+
+@keyframes flyAway {
+ 
+}
